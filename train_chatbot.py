@@ -1,3 +1,4 @@
+
 import nltk
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
@@ -9,7 +10,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 
 
-from tensorflow.keras.optimizers import SGD
+from keras.optimizers import SGD
 import random
 
 words=[]
@@ -18,6 +19,8 @@ documents = []
 ignore_words = ['?', '!']
 data_file = open('intentsInTourism.json').read()
 intents = json.loads(data_file)
+
+
 
 
 for intent in intents['intents']:
