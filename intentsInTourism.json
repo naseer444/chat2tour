@@ -1,0 +1,59 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hi", "Asslamoalikum", "Slam","Hay"],
+     "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?", "Hi there", "Hi"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Thanks for helping, bye", "Okay bye"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.", "Pleasure to have a chat with you", "See you later"],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome", "Welcome"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "What do you mean? I couldn't get it", "Please type a valid information!!"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?","What do you do?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered?", "What services do you offer?", "Your functionalities?", "What is your objective?","Your objective?"],
+     "responses": ["I can guide you through the tourism sector of Pakistan, from Gawadar to Skardu", "Offering help where needed to plan a tour anywhere in Pakistan", "Provide necessary information like hotels, facilities, and activities nearby your tourist destination", "Notify beforehand about the weather updates, so you can plan your trip accordingly", "Ease of information available for your tourist destination via Search filter of tour category or location","Recommend tourist destinations according to your own taste of tourism","A map for better navigation of the places", "Provide Photo Album for you to save your wonderfull moments"],
+     "context": [""]
+    },
+
+    {
+    "tag":"about",
+    "patterns":["Who are you?", "What are you?", "Who you are?", "What's your name?","Your name?","name?"],
+    "responses":["I'm Chat2Tour, your tourism bot assistant", "I'm Chat2Tour, an Artificial Intelligent bot", "You can call me Chat2Tour :)"]
+    },
+
+    {
+    "tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please","I need help","Help please"],
+    "responses": ["Tell me how can I assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you", "Sure, How can I help you specifically"]
+    },
+
+
+
+    {
+    "tag": "Search",
+    "patterns":["How can I search for any location", "How can I search for any tour category","Where can I find the information about any location","Find me a Hill Station","Find me a valley anywhere in Pakistan","Find me a valley","Find me a coastal area","Find me a coast","Find me a desert","Find me a fort", "Find me an island", "Find me a lake", "Find me a mine","Find me a monument","Find me a mosque", "Find me a mountain","Find me a mountain in Pakistan", "Find me a museum","Find me a museum in pakistan","Find me a national park","Find me a national park in pakistan","Find me a temple in pakistan","Find me a temple","Find me a waterfall in pakistan", "Find me a waterfall","Find me a waterfall anywhere in pakistan"],
+     "responses": ["Type the name of the destination or tour category in the search box at home page.", "Whether it's Hill station, Valley, Coast, Desert, Fort, Island, Waterfall, Mountain, Mosque, Monument, Museum, National Park or Lake, Just type in the name of intended category in search box", "Just type in the search box at Home Page of our app for any location"],
+     "context": [""]
+    },
+
+
+    
+
+    {
+    "tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our application", "Just start our app and follow the guidelines to create a new account"]   
+    }
+
+]
+}
