@@ -21,7 +21,8 @@ data_file = open('intentsInTourism.json').read()
 intents = json.loads(data_file)
 
 
-
+for i in range(10):
+    print(i)
 
 for intent in intents['intents']:
     for pattern in intent['patterns']:
