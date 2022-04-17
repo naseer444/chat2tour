@@ -53,6 +53,12 @@
     "tag": "createaccount",
     "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
     "responses": ["You can just easily create a new account from our application", "Just start our app and follow the guidelines to create a new account"]   
+    },
+
+    {
+        "tag":"planTrip",
+        "patterns":["Plan a trip to Naran","Plan a trip to lahore"],
+        "responses":["Yeah sure! Here is a complete guide for planning a trip"]
     }
 
 ]

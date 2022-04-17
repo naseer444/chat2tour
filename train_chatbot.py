@@ -22,6 +22,7 @@ intents = json.loads(data_file)
 
 
 
+
 for intent in intents['intents']:
     for pattern in intent['patterns']:
 
@@ -33,8 +34,6 @@ for intent in intents['intents']:
 
         # add to our classes list
         if intent['tag'] not in classes:
-            classes.append(intent['tag'])
-        else:
             classes.append(intent['tag'])
 
 # lemmaztize and lower each word and remove duplicates
